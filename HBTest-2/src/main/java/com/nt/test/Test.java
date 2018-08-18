@@ -28,6 +28,7 @@ public class Test {
 		Transaction tx=s.beginTransaction();
 		System.out.println("Data is stored");
 		System.out.println("Demo");
+		System.out.println("umesha i ");
 		s.save(v);
 		tx.commit();
 	}
