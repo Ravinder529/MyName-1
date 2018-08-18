@@ -27,6 +27,7 @@ public class Test {
 		v.setCustomer(s1);
 		Transaction tx=s.beginTransaction();
 		System.out.println("Data is stored");
+		System.out.println("Demo");
 		s.save(v);
 		tx.commit();
 	}
